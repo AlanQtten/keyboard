@@ -32,10 +32,10 @@ keyboard({ maxTime: 5 })
 
 #### preventDefault
 
-whether to prevent `keydown` and `keyup` event on `document`
+whether to preventDefault on `keydown` and `keyup` event(on `document`)
 
 ```ts
-keyboard({ preventDefault: 5 })
+keyboard({ preventDefault: true })
   .ctrl()
   .letter('F')
   .listen(() => {
