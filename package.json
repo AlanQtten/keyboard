@@ -1,0 +1,22 @@
+{
+  "name": "keyboard",
+  "version": "0.0.1",
+  "description": "quickly addEventListener for keyboard events",
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest",
+    "dev": "vite dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "jsdom": "^24.0.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.2.10",
+    "vitest": "^1.5.2"
+  },
+  "type": "module"
+}
