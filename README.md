@@ -32,12 +32,12 @@ keyboard({ maxTime: 5 })
 
 #### preventDefault
 
-whether to preventDefault on `keydown` and `keyup` event(on `document`)
+whether to preventDefault with `keydown` and `keyup` event(on `document`)
 
 ```ts
 keyboard({ preventDefault: true })
   .ctrl()
-  .letter('F')
+  .letter('f')
   .listen(() => {
     console.log(`searching...`)
   })
