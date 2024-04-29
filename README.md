@@ -1,9 +1,11 @@
 # keyboard
 
+---
 ## Description
 
 quickly bind multiple-key keyboard event
 
+---
 ## Demo
 
 ```ts
@@ -14,7 +16,7 @@ keyboard()
     console.log(`saving...`)
   })
 ```
-
+---
 ## Option
 
 #### maxTime
@@ -42,6 +44,7 @@ keyboard({ preventDefault: true })
     console.log(`searching...`)
   })
 ```
+---
 ## Api
 
 #### letter

@@ -1,5 +1,6 @@
 {
-  "name": "keyboard",
+  "name": "@aq/keyboard",
+  "homepage": "https://github.com/AlanQtten/keyboard",
   "version": "0.0.1",
   "description": "quickly addEventListener for keyboard events",
   "main": "./src/index.ts",
